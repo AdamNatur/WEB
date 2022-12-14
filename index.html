@@ -13,11 +13,10 @@
 
     <link rel = "stylesheet" type = "text/css" href="css/normalize.css">
     <link rel = "stylesheet" type = "text/css" href="css/style.css">
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
       
     </style>
@@ -25,45 +24,47 @@
   <body>
     <header>
       <a href="#">
-        <img src = "/" alt = "На главную">
+        <img class="logoImg" src = "images/logo.png" alt = "На главную" width="113" height="35">
       </a>
-      <button class = 'right'>
-        <img src = "/" alt = "Меню">
-      </button>
+      <img class="menuImg" src = "images/menu.svg" alt = "Меню">
     </header>
     <main>
       <section>
-        <h1>VOLUNTEERS</h1>
-        <h2 class = 'left'>Make magical math moments in your community.</h2>
-        <p class='left'>Mathopolis relies on volunteers to help create magical math moments for kids. We have a number of ways to get involved, from playing math puzzles in a virtual classroom to hosting your own festival. </p>
-        <img src = "/" alt = "VOLUNTEERS" width="262" height = "262">
+        <box1>
+          <h1 class='h1center'>VOLUNTEERS</h1>
+          <h2 class = 'left'>Make magical math moments in your community.</h2>
+          <p class='left'>Mathopolis relies on volunteers to help create magical math moments for kids. We have a number of ways to get involved, from playing math puzzles in a virtual classroom to hosting your own festival. </p>
+        </box1>
+        <img class = 'GrannywithblackImg center' src = "images/Granny with black girl.png" alt = "VOLUNTEERS" width="283" height = "261">
       </section>
-        <h2>TESTIMONIALS</h2>
-        <blockquote>
-          <p>I am a biochemist, but I loved helping students explore a logic puzzle about a pirate captain and crew (complete with pirate hats).</p>
-        </blockquote>
+        <h2 class = 'center'>TESTIMONIALS</h2>
+        <div class='IamBio'>
+          <blockquote>
+            <p>I am a biochemist, but I loved helping students explore a logic puzzle about a pirate captain and crew (complete with pirate hats).</p>
+          </blockquote>
+        </div>
         <p>David H.</p>
-        <p>Festival Volunteer</p>
+        <p>Festival Volunteer</p> 
         <label><input type="radio" name = "slider"></label>
         <label><input type="radio" name = "slider"></label>
         <label><input type="radio" name = "slider"></label>       
       <section>
         <img src = "/" alt = "PICTURE" width = "262" height = "262">
-        <h2 class='right'>LEAD AN ACTIVITY</h2>
-        <p class='right'>Play a puzzle with kids at a virtual math circle or in-person festival. Volunteers lead our puzzles by encouraging independent exploration and asking strategic questions to help with deeper thinking.</p>
-        <a class='right' href="#"><h3>ATTEND A WORKSHOP</h3></a>
+        <h2 class='center'>LEAD AN ACTIVITY</h2>
+        <p class='center'>Play a puzzle with kids at a virtual math circle or in-person festival. Volunteers lead our puzzles by encouraging independent exploration and asking strategic questions to help with deeper thinking.</p>
+        <a class='center' href="#"><h3>ATTEND A WORKSHOP</h3></a>
       </section>
       <section>
         <img src = "/" alt="PICTURE" width ="262" height = "262">
         <h2 class = 'whiteh2'>RUN A CLASSROOM VISIT</h2>
-        <p class = 'left'>Lead virtual classroom visits in your neighborhood elementary or middle school. We train volunteers (including high school and college students) on how to manage this virtual outreach activity. The only thing you need to bring is an open mind and the desire to bring fun math into a kid’s life.</p>
-        <a class = 'left' href="#"><h3>VOLUNTEER</h3></a>
+        <p class = 'center'>Lead virtual classroom visits in your neighborhood elementary or middle school. We train volunteers (including high school and college students) on how to manage this virtual outreach activity. The only thing you need to bring is an open mind and the desire to bring fun math into a kid’s life.</p>
+        <a class = 'center' href="#"><h3>VOLUNTEER</h3></a>
       </section>
       <section>
         <img src = "/" alt = "PICTURE" width = "262" height = "262">
-        <h2 class = 'right'>HOST A FESTIVAL</h2>
-        <p class = 'right'>A math festival is a one-time event where children gather and explore math through puzzles. Our festivals are hosted by volunteers who want to connect the children in their community with a joyful math experience. We have all the resources you need to host a festival. </p>
-        <a class = 'right' href="#"><h3>LEARN MORE</h3></a>
+        <h2 class = 'center'>HOST A FESTIVAL</h2>
+        <p class = 'center'>A math festival is a one-time event where children gather and explore math through puzzles. Our festivals are hosted by volunteers who want to connect the children in their community with a joyful math experience. We have all the resources you need to host a festival. </p>
+        <a class = 'center' href="#"><h3>LEARN MORE</h3></a>
       </section>
     </main>
     <footer>
@@ -71,18 +72,20 @@
         <img src = "/" alt = "На главную">
       </a>
       <p>We're a fiscally-sponsored project of a 501(c)3, Social and Environmental Entrepreneurs.</p>
-      <ul class = 'left'>
-        <li><a href="#">STUDENTS</a></li>
-        <li><a href="#">PARENTS</a></li>
-        <li><a href="#">TEACHERS</a></li>
-        <li><a href="#">VOLUNTEERS</a></li>
-        <li><a href="#">EVENTS</a></li>
-        <li class><a href="#">PUZZLES</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">NEWS</a></li>
-        <li><a href="#">STORE</a></li>
-        <li><a href="#">DONATE</a></li>
-      </ul>
+      <div class='boxFooter1'>
+          <a class='left' href="#">STUDENTS</a>
+          <a class='left' href="#">PARENTS</a>
+          <a class='left' href="#">TEACHERS</a>
+          <a class='left' href="#">VOLUNTEERS</a>
+          <a class='left' href="#">EVENTS</a>
+      </div>
+      <div class='boxfooter2'>
+        <a class='left' href="#">PUZZLES</a>
+        <a class='left' href="#">ABOUT</a>
+        <a class='left' href="#">NEWS</a>
+        <a class='left' href="#">STORE</a>
+        <a class='left' href="#">DONATE</a> 
+      </div>
       <h3>Follow us:</h3>
       <a href=""><img src = "/" alt = "Twitter"></a>
       <a href="http://instagram.com"><img src = "/" alt = "Instagram"></a>
