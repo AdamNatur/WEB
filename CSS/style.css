@@ -250,18 +250,9 @@ li{
 }
 
 .list1{
-    width:150px;
-    height: 245px;
-    line-height: 1.5;
-    margin-left: 146px;
-    margin-top: 50px;
-}
-.list2{
-    width:150px;
-    height: 245px;
-    line-height: 1.5;
-    margin-right: 72px;
-    margin-top:-261px;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
 }
 
 .Form{
@@ -272,6 +263,9 @@ label{
     margin-bottom: 5px;
 }
 
+.divlist{
+    display:flex;
+}
 
 
 
