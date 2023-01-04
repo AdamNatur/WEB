@@ -290,6 +290,32 @@ label{
     column-gap: 10px;
 }
 
+.buttoninFormSubmit{
+    background:#6A19F5;
+    border-radius:5px;
+    color:white;
+    align-content:center;
+}
+.buttoninFormReset{
+    background:#6A19F5;
+    border-radius:5px;
+    color:white;
+    align-content:center;
+}
+
+
+.buttoninFormSubmit:hover{
+    background-color:rgb(21, 190, 21);
+    transition: 250ms;
+    
+}
+
+.buttoninFormReset:hover{
+    background-color:rgb(211, 33, 14);
+    transition: 250ms;
+    
+}
+
 /* .inputborder{
     border: #f51919;
     border-width: 1px;
@@ -297,8 +323,8 @@ label{
 
 
 .centering{
-    justify-content: center;
     display:flex;
+    justify-content: center;
 }
 
 
