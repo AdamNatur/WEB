@@ -28,21 +28,21 @@
             <p class = "Formtext">Personal Info</p>
             <div>
                 <labeL><p class ="Formtextsmall">Name</p></labeL>
-                <input class = "inputborder" type = "text" placeholder="John Smith"> 
+                <input class = "inputborder" type = "text" name = "name" placeholder="John Smith"> 
             </div>
 
             <div>
                 <label><p class ="Formtextsmall">Birthdate</p></label>
-                <input type="date">
+                <input type="date" name = "date">
             </div>
 
             <div>
                 <p class ="Formtextsmall">Sex</p>
                 <div>
                     <labeL><p class ="Formtextsmall"></p>Male</labeL>
-                    <input type = "radio"> 
+                    <input type = "radio" name = "Male"> 
                     <labeL>Female</labeL>
-                    <input type = "radio"> 
+                    <input type = "radio" name = "Female"> 
                 </div>
             </div>
         </div>
@@ -51,26 +51,26 @@
 
             <div>
                 <label><p class ="Formtextsmall">E-mail</p></label> 
-                <input type="email" placeholder = "johnsmith@gmail.com" required>
+                <input type="email"  name = "email" placeholder = "johnsmith@gmail.com" required>
             </div>
 
             <div>
                 <label><p class ="Formtextsmall">Password</p></label>
-                <input type="password" required>
+                <input type="password" name = "password" required>
             </div>
 
             <div>
                 <label><p class ="Formtextsmall">Telephone</p></label>
-                <input type="tel" placeholder="+7 (916) 618-95-53" required>
+                <input type="tel" name="tel" placeholder="+7 (916) 618-95-53" required>
             </div>
 
             <div>
                 <label><p class ="Formtextsmall">Convenient time for call</p></label>
-                <input type="time" required>
+                <input type="time" name = "time" required>
             </div>
             <div class = "FormButtons">
-                <button type ="submit" value="Submit">Submit</button> 
-                <button type ="reset" value="reset">Reset</button> 
+                <button type ="submit">Submit</button> 
+                <button type ="reset">Reset</button> 
             </div>
         </div>
     </form>
