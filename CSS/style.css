@@ -296,7 +296,10 @@ label{
 } */
 
 
-
+.centering{
+    justify-content: center;
+    display:flex;
+}
 
 
 
