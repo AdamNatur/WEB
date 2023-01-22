@@ -68,12 +68,6 @@ p{
     font-size: 4rem;
 }
 
-.center{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .right{
     text-align: right;
 }
@@ -90,6 +84,7 @@ a{
 }
 
 .GrannywithblackImg{
+
     text-align: center;
     margin-top: 42px;
 }
@@ -117,12 +112,6 @@ a{
     margin-right: 71px;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-}
 .center1 {
     display: block;
     margin-left: auto;
@@ -191,6 +180,7 @@ a{
 }
 
 .section3{
+
     margin-top:21px;
     padding-left:15px;
     padding-right:15px;
@@ -237,6 +227,7 @@ a{
     padding-bottom: 100px;
     height: 600px;
     text-align: center;
+    object-fit: cover;
 }
 
 footer{
@@ -266,8 +257,10 @@ label{
 }
 
 .divlist{
+    text-align: center;
     display:grid;
     justify-content: center;
+    width: 373px;
     grid-template-columns: 40% 40%;
     grid-column-gap: 20%;
 }
@@ -327,8 +320,73 @@ label{
     justify-content: center;
 }
 
+.div-section5{
+    text-align: center;
+}
+
+.footer-text{
+    margin-left: 15 px;
+}
+
+.div-section1{
+    display: grid;
+    padding-left: 30px;
+    padding-right: 30px;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+}
+
+.div-section3{
+
+    display: grid;
+    padding-left: 30px;
+    padding-right: 30px;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+}
 
 
+@media screen and (min-width: 1000px){
+    .div-section5{
+        display:flex;
+        grid-template-columns: 30% 70%;
+    }
 
+    footer{
+        padding-left: 227px;
+        padding-right: 240px;
+    }
+
+    .footer-text{
+        margin-left: 15 px;
+    }
+    
+    .div-section1{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-column-gap: 30%;
+        align-items: center;
+    }
+
+    .div-section3{
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-column-gap: 20%;
+        align-items: center;
+    }
+
+    .h1center{
+        text-align:left;
+    }
+
+    .box-section3{
+        text-align: left;
+    }
+
+    .lefter{
+        text-align: left;
+    }
+}
 
 
