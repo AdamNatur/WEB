@@ -374,12 +374,17 @@ label{
         padding-right: 240px;
     }
 
+
+    .section2{
+        padding-top:100px;
+    }
+
     .footer-text{
         margin-left: 15 px;
     }
 
     .div-section1{
-        padding-top:200px;
+        padding-top:150px;
         width: 80%;
         display: grid;
         grid-template-columns: 40% 40%;
@@ -399,7 +404,7 @@ label{
         padding-top: 200px;
         display: grid;
         grid-template-columns: 40% 40%;
-        grid-column-gap: 20%;
+        grid-column-gap: 10%;
         align-items: center;
     }
 
@@ -407,7 +412,7 @@ label{
         padding-top: 150px;
         display: grid;
         grid-template-columns: 40% 40%;
-        grid-column-gap: 20%;
+        grid-column-gap: 10%;
         align-items: center;
     }
 
@@ -436,6 +441,7 @@ label{
 
     p{
         font-size: 20px;
+        line-height: 30px;
     }
 
     h2{
