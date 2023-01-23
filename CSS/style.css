@@ -377,8 +377,9 @@ label{
     .footer-text{
         margin-left: 15 px;
     }
-    
+
     .div-section1{
+        padding-top:200px;
         width: 80%;
         display: grid;
         grid-template-columns: 40% 40%;
@@ -387,6 +388,7 @@ label{
     }
 
     .div-section3{
+        padding-top: 200px;
         display: grid;
         grid-template-columns: 40% 40%;
         grid-column-gap: 20%;
@@ -394,6 +396,7 @@ label{
     }
 
     .div-section4{
+        padding-top: 200px;
         display: grid;
         grid-template-columns: 40% 40%;
         grid-column-gap: 20%;
@@ -401,6 +404,7 @@ label{
     }
 
     .div-section5{
+        padding-top: 150px;
         display: grid;
         grid-template-columns: 40% 40%;
         grid-column-gap: 20%;
@@ -429,6 +433,39 @@ label{
     .righter{
         text-align: right;
     }
+
+    p{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+    .h1center{
+        font-size: 96px;
+    }
+
+    .GrannywithblackImg{
+        width: 660px;
+        height: 540px;
+    }
+
+    .image-section3{
+        width: 1017px;
+        height: 1017px;
+    }
+
+    .image-section4{
+        width: 775px;
+        height: 600px;
+    }
+
+    .image-section5{
+        width: 883px;
+        height: 716px;
+    }
+
 }
 
 
