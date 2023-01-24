@@ -24,55 +24,60 @@
           <img class="menuImg" src = "images/menu.svg" alt = "Меню">
     </header>
     <form class = "Form" name="Person Info" method="POST" data-netlify="true" >
-        <div>
-            <p class = "Formtext">Personal Info</p>
+        <fieldset>
+            <legend  class = "Form-name">
+                <h2>Be a part of big family</h2>
+            </legend>
             <div>
-                <labeL><p class ="Formtextsmall">Name</p></labeL>
-                <input class = "inputborder" type = "text" name = "name" placeholder="John Smith"> 
-            </div>
-
-            <div>
-                <label><p class ="Formtextsmall">Birthdate</p></label>
-                <input type="date" name = "date">
-            </div>
-
-            <div>
-                <p class ="Formtextsmall">Sex</p>
+                <p class = "Formtext">Personal Info</p>
                 <div>
-                    <labeL><p class ="Formtextsmall"></p>Male</labeL>
-                    <input type = "radio" name = "Male"> 
-                    <labeL>Female</labeL>
-                    <input type = "radio" name = "Female"> 
+                    <labeL><p class ="Formtextsmall">Name</p></labeL>
+                    <input class = "inputborder" type = "text" name = "name" placeholder="John Smith"> 
+                </div>
+
+                <div>
+                    <label><p class ="Formtextsmall">Birthdate</p></label>
+                    <input type="date" name = "date">
+                </div>
+
+                <div>
+                    <p class ="Formtextsmall">Sex</p>
+                    <div>
+                        <labeL><p class ="Formtextsmall"></p>Male</labeL>
+                        <input type = "radio" name = "Male"> 
+                        <labeL>Female</labeL>
+                        <input type = "radio" name = "Female"> 
+                    </div>
                 </div>
             </div>
-        </div>
-        <div> 
-            <p class = "Formtext">Contact Info</p>              
+            <div> 
+                <p class = "Formtext">Contact Info</p>              
 
-            <div>
-                <label><p class ="Formtextsmall">E-mail</p></label> 
-                <input type="email"  name = "email" placeholder = "johnsmith@gmail.com" required>
-            </div>
+                <div>
+                    <label><p class ="Formtextsmall">E-mail</p></label> 
+                    <input type="email"  name = "email" placeholder = "johnsmith@gmail.com" required>
+                </div>
 
-            <div>
-                <label><p class ="Formtextsmall">Password</p></label>
-                <input type="password" name = "password" required>
-            </div>
+                <div>
+                    <label><p class ="Formtextsmall">Password</p></label>
+                    <input type="password" name = "password" required>
+                </div>
 
-            <div>
-                <label><p class ="Formtextsmall">Telephone</p></label>
-                <input type="tel" name="tel" placeholder="+7 (916) 618-95-53" required>
-            </div>
+                <div>
+                    <label><p class ="Formtextsmall">Telephone</p></label>
+                    <input type="tel" name="tel" placeholder="+7 (916) 618-95-53" required>
+                </div>
 
-            <div>
-                <label><p class ="Formtextsmall">Convenient time for call</p></label>
-                <input type="time" name = "time" required>
+                <div>
+                    <label><p class ="Formtextsmall">Convenient time for call</p></label>
+                    <input type="time" name = "time" required>
+                </div>
+                <div class = "FormButtons">
+                    <button class = "buttoninFormSubmit" type ="submit">Submit</button> 
+                    <button class="buttoninFormReset" type ="reset">Reset</button> 
+                </div>
             </div>
-            <div class = "FormButtons">
-                <button class = "buttoninFormSubmit" type ="submit">Submit</button> 
-                <button class="buttoninFormReset" type ="reset">Reset</button> 
-            </div>
-        </div>
+        </fieldset>
     </form>
     <footer>
         <img src = "images/BIGLOGO.png" alt="PICTURE">
